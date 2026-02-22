@@ -1,9 +1,13 @@
 thresholds:
   high_value_amount: 10000
+  approval_sla_hours: 24
+  duplicate_window_minutes: 60
 
 risk_scoring:
   high_value_weight: 3
   sod_weight: 5
+  sla_weight: 2
+  duplicate_weight: 4
 
 controls:
   - id: C01
@@ -12,4 +16,12 @@ controls:
 
   - id: C02
     name: "Segregation of duties (maker cannot approve own transaction)"
+    enabled: true
+
+  - id: C03
+    name: "Approvals completed within SLA"
+    enabled: true
+
+  - id: C04
+    name: "Duplicate payments detection"
     enabled: true

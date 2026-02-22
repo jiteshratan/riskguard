@@ -40,7 +40,9 @@ def build_markdown_report(exceptions: pd.DataFrame, summary: dict) -> str:
 
     lines.append("## Controls Tested\n")
     lines.append("- **C01:** High value transactions require at least 2 approvals")
-    lines.append("- **C02:** Segregation of duties (maker cannot approve own transaction)\n")
+    lines.append("- **C02:** Segregation of duties (maker cannot approve own transaction)")
+    lines.append("- **C03:** Approvals completed within SLA")
+    lines.append("- **C04:** Duplicate payments detection\n")
 
     lines.append("## Exceptions Register (Top 20)\n")
     if len(exceptions) == 0:

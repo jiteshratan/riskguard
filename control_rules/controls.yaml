@@ -1,0 +1,15 @@
+thresholds:
+  high_value_amount: 10000
+
+risk_scoring:
+  high_value_weight: 3
+  sod_weight: 5
+
+controls:
+  - id: C01
+    name: "High value transactions require at least 2 approvals"
+    enabled: true
+
+  - id: C02
+    name: "Segregation of duties (maker cannot approve own transaction)"
+    enabled: true

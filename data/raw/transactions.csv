@@ -1,0 +1,9 @@
+txn_id,txn_ts,created_by,account_id,counterparty,amount,currency,channel,txn_type
+t0001,2026-02-10 09:10:00,u1001,acc01,VendorA,9500,AUD,Online,Payment
+t0002,2026-02-10 10:05:00,u1001,acc01,VendorA,10500,AUD,Online,Payment
+t0003,2026-02-10 10:20:00,u1004,acc02,VendorB,25000,AUD,Branch,Payment
+t0004,2026-02-11 08:50:00,u1006,acc03,VendorC,12000,AUD,Online,Payment
+t0005,2026-02-11 09:02:00,u1006,acc03,VendorC,12000,AUD,Online,Payment
+t0006,2026-02-12 15:30:00,u1001,acc01,VendorD,5000,AUD,Online,Payment
+t0007,2026-02-12 16:40:00,u1004,acc02,VendorE,18000,AUD,Branch,Payment
+t0008,2026-02-13 11:15:00,u1004,acc02,VendorE,18000,AUD,Branch,Payment

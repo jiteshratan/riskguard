@@ -1,0 +1,7 @@
+user_id,user_name,role,business_unit
+u1001,Alice Smith,Maker,Payments
+u1002,Bob Jones,Approver,Payments
+u1003,Chloe Tan,Approver,Treasury
+u1004,David Kumar,Maker,Operations
+u1005,Emma Li,Approver,Operations
+u1006,Faisal Khan,Maker,Treasury

@@ -1,0 +1,8 @@
+approval_id,txn_id,approved_by,approval_ts,approval_level,decision
+a001,t0001,u1002,2026-02-10 09:20:00,1,Approved
+a002,t0002,u1001,2026-02-10 10:15:00,1,Approved
+a003,t0003,u1005,2026-02-10 12:00:00,1,Approved
+a004,t0003,u1003,2026-02-11 13:30:00,2,Approved
+a005,t0004,u1003,2026-02-12 10:00:00,1,Approved
+a006,t0005,u1003,2026-02-11 09:30:00,1,Approved
+a007,t0007,u1005,2026-02-13 18:00:00,1,Approved

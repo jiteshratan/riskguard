@@ -15,8 +15,11 @@ output/
 # VS Code
 .vscode/
 
-# Generated outputs (ignore all)
+# Generated outputs (ignore all files inside output)
 output/*
+
+# But keep the folder itself (so exceptions below work)
+!output/
 
 # Keep the interview-friendly report
 !output/assurance_report.md

@@ -14,3 +14,13 @@ output/
 
 # VS Code
 .vscode/
+
+# Generated outputs (ignore all)
+output/*
+
+# Keep the interview-friendly report
+!output/assurance_report.md
+
+# macOS
+.DS_Store
+**/.DS_Store
